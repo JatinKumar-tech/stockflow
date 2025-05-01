@@ -36,7 +36,7 @@ const Home = ({ user }) => {
       {/* Hero Section */}
       <div className="relative flex flex-col items-center text-center text-5xl font-semibold mt-10">
         <img
-          src="src/assets/SS.webp"
+          src="/SS.webp"
           className="absolute z-[-1] h-[500px] top-0 right-0 opacity-100"
           alt=""
         />
