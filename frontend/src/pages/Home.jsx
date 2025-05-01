@@ -34,13 +34,13 @@ const Home = ({ user }) => {
       </div>
 
       {/* Hero Section */}
-      <div className="relative flex flex-col items-center text-center text-5xl font-semibold mt-10">
+      <div className="relative flex flex-col items-center text-center text-5xl font-semibold mt-10 px-4">
         <img
           src="/SS.webp"
-          className="absolute z-[-1] h-[500px] top-0 right-0 opacity-100"
+          className="absolute z-[-1] h-[300px] sm:h-[400px] md:h-[500px] top-0 right-0 opacity-100 w-full object-cover"
           alt=""
         />
-        <div className="max-w-4xl">
+        <div className="max-w-4xl px-6">
           STOCK FLOW <br /> Welcomes you to build a growing India.
           <p className="text-3xl font-light mt-4">All things finance, right here.</p>
         </div>
@@ -50,7 +50,7 @@ const Home = ({ user }) => {
       <div className="text-4xl font-normal text-center mt-16 mb-8">
         Transparent pricing. No hidden charges.
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 px-6 mb-16">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 px-6 mb-16">
         {[
           "₹ 0\nAccount Opening Charges",
           "₹ 0\nBrokerage for Equity, F&O for first 30 days",
